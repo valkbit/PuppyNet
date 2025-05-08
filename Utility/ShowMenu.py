@@ -29,15 +29,14 @@ def DisplayNetworkScreen():
 def DisplayAliasScreen():
     menuScreen = """
 
-     _    _ _           
-    / \  | (_) __ _ ___ 
-   / _ \ | | |/ _` / __|
-  / ___ \| | | (_| \__ \
- /_/   \_\_|_|\__,_|___/
+     _    _ _            
+    / \  | (_) __ _ ___  
+   / _ \ | | |/ _` / __| 
+  / ___ \| | | (_| \__ \ 
+ /_/   \_\_|_|\__,_|___/ 
 
 
     [1 -> Username
-    [2 -> Full name
-    [3 -> Phone Number
+    [2 -> Phone Number (WIP)
     """
     print(menuScreen)
