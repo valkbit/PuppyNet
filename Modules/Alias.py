@@ -51,18 +51,8 @@ def StartModule():
 
         match modeIn:
             case 1:
-                while True:
-                    uname = input("Enter username: ").strip()
-
-                    print(f"You entered '{uname}'. Is this correct?")
-                    yes_no = input("(y/n): ").strip().lower()
-                    if "y" not in yes_no:
-                        handleInvalidInput("You selected no, returning to the start.")
-                        return
-                    else:
-                        checkName(uname)
-                        break
-
+                uname = input("Enter username: ").strip()
+                checkName(uname)
             case 2:
      # Phone Number. Look up specific country site, eg hitta.se for +46 and krak.dk for +45.
                 pass
